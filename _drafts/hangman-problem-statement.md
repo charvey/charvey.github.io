@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Hangman Problem Statement"
 
 categories: hangman problem-statement
