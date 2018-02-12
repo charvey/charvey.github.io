@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme: "mmistakes/minimal-mistakes@4.7.0"
+remote_theme: "mmistakes/minimal-mistakes@4.9.1"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -53,13 +53,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-alexa_site_verification  :
 yandex_site_verification :
-naver-site-verification  :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -91,6 +92,7 @@ author:
   location         : "Philadelphia, PA"
   email            : "chrischarvey@outlook.com"
   uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
