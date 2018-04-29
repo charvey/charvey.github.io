@@ -2,7 +2,7 @@
 layout: single
 title:  "Hangman Problem Statement"
 
-categories: hangman problem-statement
+tags: hangman problem-statement
 ---
 The game of Hangman has two opposing sides. One side picks a word or phrase and the other tries to guess it using only a certain amount of clues.
 
