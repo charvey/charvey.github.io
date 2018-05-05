@@ -2,7 +2,7 @@
 layout: single
 title:  "Starting with a Spark"
 
-tags: java hadoop spark data
+tags: Java Hadoop Spark Data
 ---
 
 In order to get back into the [Hadoop](http://hadoop.apache.org/) and Big Data world I decided to try out [Apache Spark](https://spark.apache.org/). Apache Spark is a project in the [Hadoop family](https://hortonworks.com/ecosystems/) that is a framework for computing data across a cluster. Because Spark data stays in memory it can be much faster than just running a simple MapReduce job.
