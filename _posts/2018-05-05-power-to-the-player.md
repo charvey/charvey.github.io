@@ -19,6 +19,6 @@ From a technical perspective I'll be trying out putting splitting separations be
 
 To start, I worked through several iterations that just displayed basic information about the board. This allowed me to slowly figure out how the models in each subdomains and the interactions between them. What I came up with is that the messages would be Observations, Game State, and Actions.
 
-!(/images/PowerGrid_OODA_Messages.svg)
+![PowerGrid OODA Messages]({{ "/images/PowerGrid_OODA_Messages.svg" | absolute_url }})
 
 For example, a Game File Observer can make Observations such as what Map is being used and what Cities have already been taken. Then the Orienter compiles these Observations into a single Game State model. The Decider then takes this model and performs analysis. This analysis results in a list of Actions such as giving the user information or making recommendations. These Actions are then performed by the Actor.
